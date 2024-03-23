@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "tkan",
+    "version": "1.0",
+    "description": "answer checker for Tae Kim's Guide to Learning Japanese",
+    "permissions": ["activeTab"],
+    "content_scripts": [
+      {
+        "matches": ["https://guidetojapanese.org/*"],
+        "js": ["content.js"],
+        "run_at": "document_idle"
+      }
+    ],
+    "action": {
+      "default_title": "tkan",
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "images/16x16.png",
+        "48": "images/48x48.png",
+        "128": "images/128x128.png"
+        }    
+    }
+  }

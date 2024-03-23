@@ -2,6 +2,9 @@
 Browser extension for checking answers on Tae Kim's Guide to Learning Japanese.  
 This extension works by overlaying input field on the existing blanks on the exercises sections and checking the input with the answer in realtime.
 
+## Showcase
+https://github.com/sujalwastaken/tkan/assets/136440452/580314de-c6b6-4109-9b9a-eabba3973006
+
 ## Installation
 Installation is specific to whichever browser you are using
 1. [Chrome](https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world#load-unpacked)
